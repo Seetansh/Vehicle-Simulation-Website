@@ -7,9 +7,9 @@ export default function Home() {
     const vehicleDetails = [
         { title: 'Speed', value: '32 KPH' },
         { title: 'Distance covered', value: '100 KM' },
-        { title: '', value: '32 KPH' },
-        { title: 'Speed', value: '32 KPH' },
-        { title: 'Speed', value: '32 KPH' }
+        { title: 'Battery', value: '32%' },
+        { title: 'Total Distance', value: '834.0 KM' },
+        { title: 'Distance from last Stop', value: '00.00 KM' }
     ]
 
     return (
