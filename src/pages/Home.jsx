@@ -1,12 +1,13 @@
 import React from 'react'
 import Map from '../components/Map'
+import Clock from '../components/Clock'
 
 export default function Home() {
 
     const vehicleDetails = [
         { title: 'Speed', value: '32 KPH' },
-        { title: 'Speed', value: '32 KPH' },
-        { title: 'Speed', value: '32 KPH' },
+        { title: 'Distance covered', value: '100 KM' },
+        { title: '', value: '32 KPH' },
         { title: 'Speed', value: '32 KPH' },
         { title: 'Speed', value: '32 KPH' }
     ]
@@ -23,6 +24,7 @@ export default function Home() {
             <div className='overlay2'>
                 <div className='overlay-content2'>
                     <h3 id='details-title'>Vehicle details</h3>
+                    <Clock />
                     <div className='details-container'>
                         <div className='details-rows'>
                             {vehicleDetails.map((val, key) => {
